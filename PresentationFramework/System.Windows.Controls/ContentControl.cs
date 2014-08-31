@@ -28,6 +28,7 @@ using System;
 using System.Collections;
 using System.ComponentModel;
 using System.Windows.Markup;
+using System.Windows.Serialization;
 
 namespace System.Windows.Controls {
 

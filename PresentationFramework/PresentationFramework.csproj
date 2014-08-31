@@ -31,6 +31,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -84,5 +85,14 @@
   <ItemGroup>
     <None Include="System.Windows.Serialization\data-classes.txt" />
     <None Include="System.Windows.Serialization\data-classes-builder.pl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="System.Windows.Input\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PresentationCore\PresentationCore.csproj">
+      <Project>{16268976-6C45-4485-8F06-0B9C03278F0E}</Project>
+      <Name>PresentationCore</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>
